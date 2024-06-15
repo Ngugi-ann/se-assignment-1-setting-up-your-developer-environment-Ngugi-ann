@@ -1,0 +1,90 @@
+Steps to install windows 11:
+1. Check compatibility:
+
+Use the PC Health Check app to see if your device meets Windows 11's minimum requirements [Compatibility checker for Windows 11].
+2. Back up your data:
+
+Upgrading usually keeps your files, but it's recommended to back up important data just in case.
+3. Upgrade via Windows Update:
+
+Go to Settings > Update & Security > Windows Update.
+Click "Check for updates".
+If the upgrade is available, you'll see a notification for "Upgrade to Windows 11". Click "Download and install" and follow the on-screen instructions.
+
+Steps to install Vs Code:
+Download the VS Code installer for Windows from the official site [Visual Studio download].
+Run the downloaded installer (usually named "VSCodeSetup.exe").
+Click "Install" (default options are fine for most users).
+Launch VS Code from the installer or Start menu and start coding
+
+Steps to install git and github:
+Download the Git installer for your operating system from https://www.git-scm.com/downloads.
+Run the installer and follow the on-screen instructions. During installation, choose the option to use Git from the command line.
+
+Set up Git :
+Open a command prompt or terminal window.
+Type git config --global user.name "Your Name" (replace "Your Name" with your actual name).
+Type git config --global user.email "youremail@example.com" (replace with your email address).
+Create a GitHub account (optional):
+
+Go to https://github.com/index.
+Click "Sign up for GitHub" and follow the steps to create a free account
+
+Steps on how to install python:
+Download the installer:
+
+Visit the official Python downloads [Official Python download].
+Under "Latest Python Releases for Windows", choose the latest stable version (e.g., 3.11.x).
+Download the appropriate installer based on your system (32-bit or 64-bit).
+Run the installer:
+
+Double-click the downloaded file (e.g., "python-3.11.x-amd64.exe").
+Crucially, check the box for "Add Python 3.x to PATH" during installation. This allows you to run Python from any command prompt.
+Click "Install Now" .
+Verify installation (optional):
+
+Open a command prompt (search for "cmd" in the Start menu).
+Type python --version and press Enter. If Python is installed correctly, you'll see the installed Python version.
+
+Steps on intalling Pip(python):
+Open a command prompt (search for "cmd" in the Start menu).
+Navigate to the directory where Python is installed (usually C:\Python3x\Scripts). You can find this path in Python settings or by running where python in the command prompt.
+Type python -m ensurepip and press Enter. This will download and install pip using Python's built-in mechanism.
+In the command prompt, type pip --version and press Enter. If pip is installed, you'll see the installed pip version.
+
+Steps to install MySQL:
+Download the installer:
+
+Go to the MySQL downloads page [MySQL downloads].
+Under "MySQL Installer for Windows", choose the version compatible with your system (32-bit or 64-bit). There are two options: web installer (smaller download) or offline installer (full package). Web installer is recommended for most users.
+Run the installer:
+
+Double-click the downloaded file (e.g., "mysql-installer-community-8.0.x-winx64.msi").
+Choose "Developer Default Settings" during installation.
+Crucially, during the "Security Settings" step, set a strong password for the root user.
+Complete the installation:
+
+Click "Next" through the remaining installation prompts. The installer will download and configure MySQL components.
+Verify installation (optional):
+
+Open a command prompt (search for "cmd" in the Start menu).
+Type mysql -u root -p and press Enter. Enter the root password you set during installation. If successful, you'll see the MySQL prompt.
+
+Steps on how to install Extensions on Vs Code:
+Open VS Code.
+Click the Extensions icon (puzzle piece) on the Activity Bar (left sidebar).
+Search for the extension you want.
+Click "Install" for the desired extension e.g code runner,prettier,mysql tools.
+
+Here are some of the Challenges I faced setting up my envrionment and how i solved them:
+1. Compatibility issues while installing windows 11 hence i had to uprgrade my operating system to the latest version.
+2. Environmental configuration issues hence i had to verity that variables like PATH are the correctly.
+3. Version control problems with git hence i had first check the version installed and the configure it by using the following command ; git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+
+
+
+
+
+
